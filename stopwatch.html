@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="stopwatchStyle.css" rel="stylesheet">
+    <title>Cool Stopwatch</title>
+</head>
+<body>
+    <div class="stopwatch">
+        <h1><span class="awesome">Awesome</span> Stopwatch</h1>
+        <div class="circle">
+            <span class="time" id="display">00:00:00</span>
+        </div>
+
+        <div class="controls">
+            <button class="playPauseButtons">
+                <img id="playButton" src="resources/play-button.svg"/>
+                <img id="pauseButton" src="resources/pause-button.svg"/>
+            </button>
+
+            <button class="resetButton">
+                <img id="resetButton" src="resources/reset-button.svg">
+            </button>
+        </div>
+
+        <button class="old"></button>
+    </div>
+    <script src="stopwatchScript.js"></script>
+</body>
+</html>

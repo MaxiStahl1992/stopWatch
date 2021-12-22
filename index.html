@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+        <title>Stopwatch</title>
+    </head>
+    <body>
+        <header>
+            <h1>Stopwatch</h1>
+        </header>
+
+        <div class="main">
+            <!--Stopwatch-->
+            <div class="stopwatch" id="stopwatch">
+                00:00:00
+            </div>
+
+            <!--Buttons-->
+            <div class="buttons">
+                <button class="start-button button" id="start-button">Start</button>
+                <button class="stop-button button" id="stop-button">Stop</button>
+                <button class="reset-button button" id="reset-button">Reset</button>
+            </div>
+
+            <div class="change">
+                <button onclick="window.location.href='stopwatch.html';">Cooler Stopwatch<br> Click here!</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
 </html>
